@@ -33,10 +33,10 @@ if ($prev_bulan == 0 ) {
 
 ?>
 
-<div style="padding:10px;border:1px solid #444;background:#999;width:200px">
+<div style="padding:10px;border:1px solid #eee;background:purple;width:200px">
 	<table width="200">
 	<tr align="center">
-		<td bgcolor="#999999" style="color:#FFFFFF">
+		<td style="color:#FFFFFF">
 			<table width="100%" border="0" cellspacing="0" cellpadding="0">
 			<tr>
 				<td width="50%" align="left">  <a href="<?php echo $_SERVER["PHP_SELF"] . "?bulan=". $prev_bulan . "&tahun=" . $prev_tahun; ?>" style="color:#FFFFFF">Sebelumnya</a></td>
